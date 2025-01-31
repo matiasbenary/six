@@ -1,0 +1,14 @@
+{
+    "name": "six",
+    "version": "1.0.0",
+    "main": "index.cjs.js",
+    "module": "index.esm.js",
+    "peerDependencies": {
+        "react": ">=18.0.0",
+        "react-dom": ">=18.0.0"
+      },
+      "devDependencies": {
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+      }
+}
