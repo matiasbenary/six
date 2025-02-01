@@ -18,12 +18,13 @@ export default {
   ],
   plugins: [
     peerDepsExternal(),
-    resolve(),
+    resolve({browser: true}),
     commonjs(),
     typescript(),
     babel({
       babelHelpers: 'bundled',
       exclude: 'node_modules/**'
     })
-  ]
+  ],
+  external: ['react', 'react-dom', '@near-wallet-selector/core','@near-wallet-selector/modal-ui']
 };
